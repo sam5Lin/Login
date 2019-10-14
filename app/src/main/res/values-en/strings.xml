@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="welcome">WELCOME BACK</string>
+    <string name="user">USERNAME</string>
+    <string name="password">PASSWORD</string>
+    <string name="remain">Remaining Times: 3</string>
+</resources>

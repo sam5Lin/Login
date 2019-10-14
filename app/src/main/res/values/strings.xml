@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Login</string>
+    <string name="welcome">欢迎回来</string>
+    <string name="user">用户名</string>
+    <string name="password">密码</string>
+    <string name="remain">剩余次数: 3</string>
 </resources>
