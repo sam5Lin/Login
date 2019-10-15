@@ -3,5 +3,9 @@
     <string name="welcome">WELCOME BACK</string>
     <string name="user">USERNAME</string>
     <string name="password">PASSWORD</string>
-    <string name="remain">Remaining Times: 3</string>
+    <string name="remain">Remaining Times: </string>
+    <string name="logout">Log Out</string>
+    <string name="success">Success Login</string>
+    <string name="fail">Account or Password Wrong</string>
+    <string name="failMuch">Too many logins, Please try again later</string>
 </resources>

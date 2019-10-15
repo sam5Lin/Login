@@ -3,5 +3,9 @@
     <string name="welcome">欢迎回来</string>
     <string name="user">用户名</string>
     <string name="password">密码</string>
-    <string name="remain">剩余次数: 3</string>
+    <string name="remain">剩余次数: </string>
+    <string name="logout">退 出</string>
+    <string name="success">登陆成功</string>
+    <string name="fail">用户名密码错误</string>
+    <string name="failMuch">你是个好人，可惜我们不合适</string>
 </resources>
