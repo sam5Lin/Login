@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.util.Log;
-import android.view.Gravity;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageButton;
@@ -44,9 +43,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 String user = username.getText().toString();
                 String pwd = password.getText().toString();
                 Log.e("e---->", "user " + user + " pwd " + pwd );
+                Toast toast = Toast.makeText(this, null, Toast.LENGTH_SHORT);
                 if(time > 0){
                     if(user.equals("admin") && pwd.equals("123456")){
-                        Toast.makeText(this, R.string.success,Toast.LENGTH_SHORT).show();
+                        toast.setText(R.string.success);
+                        toast.show();
                         //参数1：当前的上下文环境。可用getApplicationContext()或this
                         //参数2：要显示的字符串。
                         //参数3：显示的时间长短。Toast默认的有两个LENGTH_LONG(长)和LENGTH_SHORT(短)
@@ -55,14 +56,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         跳转成功
                         */
                     }
+                    else if(user.equals("") || pwd.equals("")){
+                        toast.setText(R.string.empty);
+                        toast.show();
+                    }
                     else{
                         time--;
                         remainTime.setText(" " + time);
-                        Toast.makeText(this,R.string.fail,Toast.LENGTH_SHORT).show();
+                        toast.setText(R.string.fail);
+                        toast.show();
                     }
                 }
                 else{
-                    Toast.makeText(this,R.string.failMuch,Toast.LENGTH_SHORT).show();
+                    toast.setText(R.string.failMuch);
+                    toast.show();
                 }
                 break;
             case R.id.logout:

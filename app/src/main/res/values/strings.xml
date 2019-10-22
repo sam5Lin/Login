@@ -7,5 +7,6 @@
     <string name="logout">退 出</string>
     <string name="success">登陆成功</string>
     <string name="fail">用户名密码错误</string>
+    <string name="empty">请输入用户名密码</string>
     <string name="failMuch">你是个好人，可惜我们不合适</string>
 </resources>

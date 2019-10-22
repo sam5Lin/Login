@@ -6,6 +6,7 @@
     <string name="remain">Remaining Times: </string>
     <string name="logout">Log Out</string>
     <string name="success">Success Login</string>
-    <string name="fail">Account or Password Wrong</string>
+    <string name="fail">Username or Password Wrong</string>
+    <string name="empty">Please input username or password</string>
     <string name="failMuch">Too many logins, Please try again later</string>
 </resources>
